@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editBookTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Book Title"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editAuthorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Author Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editReview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Review"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rating (1-5)"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Book" />
+
+    <Button
+        android:id="@+id/buttonView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Books" />
+
+    <Button
+        android:id="@+id/buttonViewReviews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Reviews and Ratings" />
+
+    <TextView
+        android:id="@+id/textViewBooks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Books will appear here"
+        android:textSize="16sp"
+        android:paddingTop="8dp" />
+
+</LinearLayout>
